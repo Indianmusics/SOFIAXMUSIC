@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "f47691a2c89c0461a39d34ce89e3d6bd")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "5844379018:AAGKVjB6FCXDwgGodBy1RXMh3cd5uXmAQ_w")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Music2:music2@cluster0.afosryv.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001701768647"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙎𝙐𝙋𝙀𝙍 𝙎𝙏𝘼𝙍 𝙈𝙐𝙎𝙄𝘾")
 
@@ -23,7 +23,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/VIDHIXVRS/SOFIAXMUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-GIT_TOKEN = getenv("GIT_TOKEN", "")
+GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/StarbotUpdate")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Super_Star_Singing_Group")
